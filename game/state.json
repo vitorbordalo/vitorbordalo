@@ -1,10 +1,10 @@
 {
   "board": [
+    "O",
     "",
     "",
     "",
-    "",
-    "",
+    "X",
     "",
     "",
     "",
@@ -16,6 +16,11 @@
     "draws": 0,
     "humanWins": 0
   },
-  "moves": [],
+  "moves": [
+    {
+      "user": "vitorbordalo",
+      "cell": 5
+    }
+  ],
   "lastResult": null
 }
