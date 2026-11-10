@@ -91,11 +91,11 @@ function render(state, repo) {
     return `<a href="${url(i)}" title="Jogar na casa ${i + 1}">⬜</a>`;
   };
   const rows = [0, 3, 6].map((r) =>
-    '    <tr>' + [r, r + 1, r + 2].map((i) => `<td align="center" width="64" height="64"><h2>${cell(i)}</h2></td>`).join('') + '</tr>'
+    '    <tr>' + [r, r + 1, r + 2].map((i) => `<td align="center" width="64" height="64"><h3>${cell(i)}</h3></td>`).join('') + '</tr>'
   ).join('\n');
   const s = state.stats;
   const moves = state.moves.length
-    ? state.moves.map((m) => `[@${m.user}](https://github.com/${m.user}) jogou na casa ${m.cell}`).join(' · ')
+    ? state.moves.map((m) => `<a href="https://github.com/${m.user}">@${m.user}</a> jogou na casa ${m.cell}`).join(' · ')
     : 'Ninguém jogou ainda. Seja a primeira pessoa!';
   return [
     '<!-- TTT:START -->',
