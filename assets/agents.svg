@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="Fluxo da equipe de agentes do GED Plays: Vitor manda um e-mail, um daemon lê a caixa, o COO Gustavo delega para 9 agentes, e nada vai para produção sem APROVO">
+  <defs>
+    <style>
+      .mono { font-family: Consolas, "SFMono-Regular", Menlo, "Courier New", monospace; letter-spacing: .5px; }
+      .sans { font-family: "Segoe UI", -apple-system, Helvetica, Arial, sans-serif; }
+      .serif { font-family: Georgia, "Times New Roman", serif; font-style: italic; }
+      .agent rect { animation: pulse 4.5s ease-in-out infinite; }
+      @keyframes pulse { 0%, 70%, 100% { stroke: rgba(244,239,230,.16); } 80% { stroke: #ff3b2f; } }
+      .a1 rect { animation-delay: .0s } .a2 rect { animation-delay: .5s } .a3 rect { animation-delay: 1s }
+      .a4 rect { animation-delay: 1.5s } .a5 rect { animation-delay: 2s } .a6 rect { animation-delay: 2.5s }
+      .a7 rect { animation-delay: 3s } .a8 rect { animation-delay: 3.5s } .a9 rect { animation-delay: 4s }
+      .flowline { stroke-dasharray: 6 8; animation: flow 1s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -14; } }
+      .ok { animation: okglow 2.4s ease-in-out infinite; }
+      @keyframes okglow { 50% { stroke-opacity: .35; } }
+    </style>
+    <clipPath id="frame"><rect width="1200" height="460" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="460" fill="#141110"/>
+    <text x="48" y="54" class="mono" font-size="14" fill="#ff3b2f">GED PLAYS · UMA EMPRESA OPERADA POR AGENTES DE IA</text>
+    <text x="1152" y="54" text-anchor="end" class="mono" font-size="13" fill="#8f8680">relatórios às 9h · 13h · 18h</text>
+
+    <!-- linhas -->
+    <g fill="none" stroke="#f4efe6" stroke-opacity=".35" stroke-width="2" class="flowline">
+      <path id="p1" d="M250 160 H330"/>
+      <path id="p2" d="M530 160 H610"/>
+      <path id="p3" d="M810 160 C 860 160, 860 120, 900 120"/>
+      <path id="p4" d="M710 210 V300"/>
+      <path id="p5" d="M610 360 H250"/>
+    </g>
+    <circle r="5" fill="#ff3b2f"><animateMotion dur="1.4s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="5" fill="#ff3b2f"><animateMotion dur="1.4s" begin=".5s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="5" fill="#ff3b2f"><animateMotion dur="1.4s" begin="1s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+    <circle r="5" fill="#3ddc84"><animateMotion dur="1.6s" begin=".3s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+    <circle r="5" fill="#3ddc84"><animateMotion dur="2s" begin=".8s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></circle>
+
+    <!-- nós -->
+    <g class="sans">
+      <rect x="48" y="110" width="202" height="100" rx="18" fill="#f4efe6"/>
+      <text x="70" y="140" class="mono" font-size="12" fill="#5f5853">VITOR · DONO</text>
+      <text x="70" y="168" font-size="21" font-weight="700" fill="#0f0d0c">Manda e-mail ✉️</text>
+      <text x="70" y="192" font-size="13" fill="#5f5853">“prioriza a busca nos PDFs”</text>
+
+      <rect x="330" y="110" width="200" height="100" rx="18" fill="#1f1b19" stroke="#f4efe6" stroke-opacity=".16"/>
+      <text x="352" y="140" class="mono" font-size="12" fill="#8f8680">DAEMON · NODE.JS</text>
+      <text x="352" y="168" font-size="21" font-weight="700" fill="#f4efe6">Lê a caixa</text>
+      <text x="352" y="192" font-size="13" fill="#a9a098">IMAP a cada 10 min</text>
+
+      <rect x="610" y="110" width="200" height="100" rx="18" fill="#ff3b2f"/>
+      <text x="632" y="140" class="mono" font-size="12" fill="#0f0d0c" fill-opacity=".75">GUSTAVO · COO</text>
+      <text x="632" y="168" font-size="21" font-weight="700" fill="#0f0d0c">Planeja e delega</text>
+      <text x="632" y="192" font-size="13" fill="#0f0d0c" fill-opacity=".75">backlog + memória</text>
+
+      <rect x="48" y="310" width="202" height="100" rx="18" fill="#141110" stroke="#3ddc84" stroke-width="2" class="ok"/>
+      <text x="70" y="340" class="mono" font-size="12" fill="#3ddc84">HUMANO NO CONTROLE</text>
+      <text x="70" y="368" font-size="21" font-weight="700" fill="#f4efe6">“APROVO #id”</text>
+      <text x="70" y="392" font-size="13" fill="#a9a098">merge · deploy · banco</text>
+
+      <rect x="610" y="300" width="250" height="110" rx="18" fill="#1f1b19" stroke="#f4efe6" stroke-opacity=".16"/>
+      <text x="632" y="330" class="mono" font-size="12" fill="#8f8680">GUARDA-CORPOS</text>
+      <text x="632" y="358" font-size="17" font-weight="700" fill="#f4efe6">Branch → QA → Segurança</text>
+      <text x="632" y="382" font-size="13" fill="#a9a098">build tem que passar</text>
+      <text x="632" y="400" font-size="13" fill="#a9a098">reprovou? volta pro dev</text>
+    </g>
+
+    <!-- equipe 3x3 -->
+    <g class="sans">
+      <text x="900" y="96" class="mono" font-size="12" fill="#8f8680">9 AGENTES · CLAUDE CODE</text>
+      <g class="agent a1"><rect x="900" y="110" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="912" y="138" font-size="15" font-weight="700" fill="#f4efe6">Mateus</text><text x="912" y="158" class="mono" font-size="10" fill="#8f8680">DEV</text></g>
+      <g class="agent a2"><rect x="988" y="110" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="1000" y="138" font-size="15" font-weight="700" fill="#f4efe6">Laura</text><text x="1000" y="158" class="mono" font-size="10" fill="#8f8680">UX/UI</text></g>
+      <g class="agent a3"><rect x="1076" y="110" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="1088" y="138" font-size="15" font-weight="700" fill="#f4efe6">Gian</text><text x="1088" y="158" class="mono" font-size="10" fill="#8f8680">QA</text></g>
+      <g class="agent a4"><rect x="900" y="182" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="912" y="210" font-size="15" font-weight="700" fill="#f4efe6">Debora</text><text x="912" y="230" class="mono" font-size="10" fill="#8f8680">SEGURANÇA</text></g>
+      <g class="agent a5"><rect x="988" y="182" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="1000" y="210" font-size="15" font-weight="700" fill="#f4efe6">Montez</text><text x="1000" y="230" class="mono" font-size="10" fill="#8f8680">INFRA</text></g>
+      <g class="agent a6"><rect x="1076" y="182" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="1088" y="210" font-size="15" font-weight="700" fill="#f4efe6">Alice</text><text x="1088" y="230" class="mono" font-size="10" fill="#8f8680">PRODUTO</text></g>
+      <g class="agent a7"><rect x="900" y="254" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="912" y="282" font-size="15" font-weight="700" fill="#f4efe6">Sabrina</text><text x="912" y="302" class="mono" font-size="10" fill="#8f8680">MARKETING</text></g>
+      <g class="agent a8"><rect x="988" y="254" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="1000" y="282" font-size="15" font-weight="700" fill="#f4efe6">Leo</text><text x="1000" y="302" class="mono" font-size="10" fill="#8f8680">FINANÇAS</text></g>
+      <g class="agent a9"><rect x="1076" y="254" width="80" height="64" rx="12" fill="#1f1b19" stroke-width="1.5"/><text x="1088" y="282" font-size="15" font-weight="700" fill="#f4efe6">Luis</text><text x="1088" y="302" class="mono" font-size="10" fill="#8f8680">COMERCIAL</text></g>
+      <path d="M1028 318 V355 H860" fill="none" stroke="#f4efe6" stroke-opacity=".35" stroke-width="2" class="flowline"/>
+    </g>
+    <text x="1152" y="428" text-anchor="end" class="serif" font-size="22" fill="#ff3b2f">IA como multiplicador de força.</text>
+  </g>
+</svg>
