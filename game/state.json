@@ -1,0 +1,21 @@
+{
+  "board": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "stats": {
+    "games": 0,
+    "botWins": 0,
+    "draws": 0,
+    "humanWins": 0
+  },
+  "moves": [],
+  "lastResult": null
+}

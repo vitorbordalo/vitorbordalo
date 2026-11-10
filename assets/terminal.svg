@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Terminal: um agente de IA analisa o perfil do Vitor Bordalo, AI Builder, e recomenda contratar">
+  <defs>
+    <radialGradient id="g" cx="100%" cy="0%" r="75%"><stop offset="0" stop-color="#ff3b2f" stop-opacity=".22"/><stop offset="1" stop-color="#ff3b2f" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="1200" height="520" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="520" fill="#0f0d0c"/>
+    <rect width="1200" height="520" fill="url(#g)"/>
+    <rect width="1200" height="52" fill="#171413"/>
+    <line x1="0" y1="52" x2="1200" y2="52" stroke="rgba(244,239,230,.10)"/>
+    <circle cx="30" cy="26" r="7" fill="#ff5f57"/><circle cx="54" cy="26" r="7" fill="#febc2e"/><circle cx="78" cy="26" r="7" fill="#28c840"/>
+    <text x="600" y="31" text-anchor="middle" font-size="14" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" fill="#8f8680">vitor@bordalo: ~/recrutamento — claude</text>
+    <text x="1170" y="31" text-anchor="end" font-size="13" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" fill="#3ddc84">● online</text>
+    <clipPath id="type"><rect x="44" y="90" height="32" width="0">
+        <animate attributeName="width" values="0;0;1100;1100;0" keyTimes="0;0.012;0.14;0.97;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+      <text x="44" y="112" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" clip-path="url(#type)"><tspan fill="#7aa2ff">~/recrutamento</tspan><tspan fill="#8f8680"> $ </tspan><tspan fill="#f4efe6" font-weight="700">claude</tspan><tspan fill="#f4efe6"> "quem é o Vitor Bordalo e por que contratar?"</tspan></text>
+<text x="44" y="139" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1625;0.1665;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#3ddc84">● </tspan><tspan fill="#f4efe6" font-weight="700">Read</tspan><tspan fill="#8f8680">(curriculo.md)</tspan></text>
+<text x="44" y="166" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2000;0.2040;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#3ddc84">● </tspan><tspan fill="#f4efe6" font-weight="700">Fetch</tspan><tspan fill="#8f8680">(github.com/vitorbordalo)</tspan></text>
+<text x="44" y="193" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2375;0.2415;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#3ddc84">● </tspan><tspan fill="#f4efe6" font-weight="700">Task</tspan><tspan fill="#8f8680">(dev, qa, seguranca)</tspan><tspan fill="#5f5853">  → 3 agentes analisaram 50 repositórios</tspan></text>
+<text x="44" y="247" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3250;0.3290;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#f4efe6" font-weight="700">Vitor Bordalo</tspan><tspan fill="#8f8680">  ·  AI Builder  ·  Engenharia de Software @ FIAP</tspan></text>
+<text x="44" y="274" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3688;0.3728;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#5f5853">├─ </tspan><tspan fill="#f4efe6">constrói produtos com IA, do problema ao deploy</tspan></text>
+<text x="44" y="301" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4063;0.4103;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#5f5853">├─ </tspan><tspan fill="#f4efe6">orquestra uma empresa de </tspan><tspan fill="#ff3b2f" font-weight="700">9 agentes de IA</tspan><tspan fill="#f4efe6"> que opera um SaaS real</tspan></text>
+<text x="44" y="328" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4437;0.4477;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#5f5853">├─ </tspan><tspan fill="#f4efe6">🥈 2º lugar HACK OPS 2026  ·  4 produtos no ar</tspan></text>
+<text x="44" y="355" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4813;0.4853;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#5f5853">└─ </tspan><tspan fill="#f4efe6">veio do Direito: fala negócio, jurídico e tecnologia</tspan></text>
+<text x="44" y="409" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5500;0.5540;0.97;1" dur="16s" repeatCount="indefinite"/><tspan fill="#ff3b2f">✻ </tspan><tspan fill="#f4efe6" font-weight="700">Veredito: </tspan><tspan fill="#3ddc84" font-weight="700">contratar.</tspan><tspan fill="#5f5853">  (confiança: 0.97)</tspan></text>
+<text x="44" y="220" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace" fill="#f2b84b" opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1437;0.1469;0.3063;0.3094;1" dur="16s" repeatCount="indefinite"/>✻ pensando…</text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6000;0.6040;0.97;1" dur="16s" repeatCount="indefinite"/><text x="44" y="463" font-size="19" font-family="Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace"><tspan fill="#7aa2ff">~/recrutamento</tspan><tspan fill="#8f8680"> $ </tspan></text>
+    <rect x="227" y="446" width="11" height="21" fill="#f4efe6"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" calcMode="discrete"/></rect></g>
+
+    <text x="1156" y="494" text-anchor="end" font-size="34" font-family="Georgia, 'Times New Roman', serif" font-style="italic" fill="#ff3b2f" opacity=".9">vb.</text>
+  </g>
+</svg>
